@@ -2,7 +2,7 @@
 
 Resource Booking Manager is a WordPress plugin for booking any type of resource (for example: machines, rooms, vehicles, equipment). It provides a frontend booking form with live availability, a full admin workflow, email notifications, cancellation links, and resource-specific schedule management.
 
-Current plugin version: **2.0.0**  
+Current plugin version: **0.1**  
 Text domain: **`crane-booking-manager`**
 
 ## Features
