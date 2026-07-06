@@ -1,0 +1,290 @@
+
+.cbm-status {
+	display: inline-block;
+	padding: 2px 10px;
+	border-radius: 4px;
+	font-size: .8rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: .03em;
+}
+
+.cbm-status--pending   { background: #fef9c3; color: #854d0e; }
+.cbm-status--approved  { background: #dcfce7; color: #166534; }
+.cbm-status--rejected  { background: #fee2e2; color: #991b1b; }
+.cbm-status--cancelled { background: #f3f4f6; color: #374151; }
+
+.cbm-row--deleted td { opacity: .5; text-decoration: line-through; }
+
+.cbm-filters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5rem;
+	align-items: center;
+	margin: 1rem 0;
+	padding: .75rem 1rem;
+	background: #f9fafb;
+	border: 1px solid #e5e7eb;
+	border-radius: 6px;
+}
+
+.cbm-filters select,
+.cbm-filters input[type="date"],
+.cbm-filters input[type="search"] {
+	padding: .35rem .6rem;
+	border: 1px solid #d1d5db;
+	border-radius: 4px;
+	font-size: .9rem;
+}
+
+.cbm-admin-form .form-table th { width: 200px; }
+
+.cbm-split {
+	display: grid;
+	grid-template-columns: 1fr 1.5fr;
+	gap: 2rem;
+	margin-top: 1rem;
+}
+
+@media ( max-width: 900px ) {
+	.cbm-split { grid-template-columns: 1fr; }
+}
+
+.cbm-hours-table td,
+.cbm-hours-table th { padding: .5rem .75rem; }
+
+.cbm-modal {
+	position: fixed;
+	inset: 0;
+	background: rgba(0,0,0,.5);
+	z-index: 99999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cbm-modal__inner {
+	background: #fff;
+	padding: 1.5rem 2rem;
+	border-radius: 8px;
+	min-width: 340px;
+	box-shadow: 0 8px 32px rgba(0,0,0,.18);
+}
+
+.cbm-modal__inner h2 { margin-top: 0; }
+
+
+
+
+.cbm-cal-wrap { max-width: 1400px; }
+
+
+.cbm-cal-header {
+	display: flex;
+	align-items: center;
+	gap: .75rem;
+	margin-bottom: 1.25rem;
+}
+.cbm-cal-header__title { margin: 0; font-size: 1.4rem; flex: 1; }
+
+
+.cbm-cal-nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1.5rem;
+	margin-bottom: 1rem;
+}
+.cbm-cal-nav__label {
+	font-size: 1.25rem;
+	font-weight: 700;
+	color: #1e293b;
+	min-width: 200px;
+	text-align: center;
+}
+.cbm-cal-nav__arrow {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background: #f1f5f9;
+	color: #334155;
+	text-decoration: none;
+	font-size: 1.1rem;
+	font-weight: 700;
+	transition: background .15s, color .15s;
+	border: 1px solid #e2e8f0;
+}
+.cbm-cal-nav__arrow:hover {
+	background: #2563eb;
+	color: #fff;
+	border-color: #2563eb;
+}
+
+
+.cbm-cal-legend {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5rem 1rem;
+	margin-bottom: 1rem;
+	font-size: .8rem;
+}
+.cbm-cal-legend__item {
+	display: flex;
+	align-items: center;
+	gap: .35rem;
+	color: #475569;
+}
+.cbm-cal-legend__dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 2px;
+	flex-shrink: 0;
+}
+.cbm-cal-legend__item--pending   .cbm-cal-legend__dot { background: #f59e0b; }
+.cbm-cal-legend__item--approved  .cbm-cal-legend__dot { background: #10b981; }
+.cbm-cal-legend__item--rejected  .cbm-cal-legend__dot { background: #ef4444; }
+.cbm-cal-legend__item--cancelled .cbm-cal-legend__dot { background: #94a3b8; }
+
+
+.cbm-cal-grid {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	gap: 1px;
+	background: #e2e8f0; 
+	border: 1px solid #e2e8f0;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 2px 8px rgba(0,0,0,.06);
+}
+
+
+.cbm-cal-grid__head {
+	background: #1e40af;
+	color: #fff;
+	text-align: center;
+	font-size: .75rem;
+	font-weight: 700;
+	letter-spacing: .05em;
+	text-transform: uppercase;
+	padding: .55rem 0;
+}
+
+
+.cbm-cal-grid__cell {
+	background: #fff;
+	min-height: 130px;
+	padding: 6px 5px;
+	position: relative;
+}
+.cbm-cal-grid__cell--filler {
+	background: #f8fafc;
+}
+.cbm-cal-grid__cell--today {
+	background: #eff6ff;
+}
+.cbm-cal-grid__cell--today .cbm-cal-grid__day-num {
+	background: #2563eb;
+	color: #fff;
+	border-radius: 50%;
+	width: 22px;
+	height: 22px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.cbm-cal-grid__day {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-bottom: 5px;
+}
+.cbm-cal-grid__day-num {
+	font-size: .8rem;
+	font-weight: 700;
+	color: #374151;
+	line-height: 1;
+}
+.cbm-cal-grid__day-count {
+	font-size: .65rem;
+	color: #94a3b8;
+}
+
+
+.cbm-cal-booking {
+	display: flex;
+	align-items: stretch;
+	border-radius: 5px;
+	margin-bottom: 4px;
+	overflow: hidden;
+	border: 1px solid rgba(0,0,0,.06);
+	font-size: .72rem;
+	line-height: 1.3;
+}
+
+
+.cbm-cal-booking::before {
+	content: '';
+	display: block;
+	width: 4px;
+	flex-shrink: 0;
+}
+.cbm-cal-booking--pending::before   { background: #f59e0b; }
+.cbm-cal-booking--approved::before  { background: #10b981; }
+.cbm-cal-booking--rejected::before  { background: #ef4444; }
+.cbm-cal-booking--cancelled::before { background: #94a3b8; }
+
+.cbm-cal-booking--pending   { background: #fffbeb; }
+.cbm-cal-booking--approved  { background: #f0fdf4; }
+.cbm-cal-booking--rejected  { background: #fff1f2; }
+.cbm-cal-booking--cancelled { background: #f8fafc; }
+
+
+.cbm-cal-booking__body {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 1px;
+	padding: 4px 5px;
+	text-decoration: none;
+	color: inherit;
+	min-width: 0;
+}
+.cbm-cal-booking__body:hover .cbm-cal-booking__name {
+	text-decoration: underline;
+}
+.cbm-cal-booking__name {
+	font-weight: 600;
+	color: #1e293b;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.cbm-cal-booking__time {
+	color: #64748b;
+	font-size: .68rem;
+}
+
+
+.cbm-cal-booking__gcal {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 5px;
+	color: #94a3b8;
+	text-decoration: none;
+	flex-shrink: 0;
+	border-left: 1px solid rgba(0,0,0,.06);
+	transition: color .15s, background .15s;
+}
+.cbm-cal-booking__gcal:hover {
+	color: #2563eb;
+	background: rgba(37,99,235,.07);
+}
+.cbm-cal-booking__gcal svg {
+	display: block;
+}

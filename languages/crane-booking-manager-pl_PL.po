@@ -1,0 +1,900 @@
+# Polish translation for Resource Booking Manager.
+msgid ""
+msgstr ""
+"Project-Id-Version: Resource Booking Manager 2.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Domain: crane-booking-manager\n"
+
+msgid "- All statuses -"
+msgstr "- Wszystkie statusy -"
+
+msgid "- Select end time -"
+msgstr "- Wybierz godzinę do -"
+
+msgid "- Select start time -"
+msgstr "- Wybierz godzinę od -"
+
+msgid "0 = same-day booking allowed."
+msgstr "0 = można rezerwować na bieżący dzień."
+
+msgid "30 minutes"
+msgstr "30 minut"
+
+msgid "60 minutes"
+msgstr "60 minut"
+
+msgid ""
+"A new booking request has been received.\n"
+"\n"
+"Request ID: {booking_id}\n"
+"Customer: {customer_name}\n"
+"Phone: {customer_phone}\n"
+"E-mail: {customer_email}\n"
+"Company: {customer_company}\n"
+"Location: {location}\n"
+"Date: {date}\n"
+"Time: {time_from} - {time_to}\n"
+"Notes: {notes}\n"
+"\n"
+"Manage bookings in the WordPress admin panel."
+msgstr ""
+"Otrzymano nowe zgłoszenie rezerwacji.\n"
+"\n"
+"ID zgłoszenia: {booking_id}\n"
+"Klient: {customer_name}\n"
+"Telefon: {customer_phone}\n"
+"E-mail: {customer_email}\n"
+"Firma: {customer_company}\n"
+"Miejsce: {location}\n"
+"Data: {date}\n"
+"Godzina: {time_from} - {time_to}\n"
+"Uwagi: {notes}\n"
+"\n"
+"Zarządzaj rezerwacjami w panelu WordPress."
+
+msgid "Action"
+msgstr "Akcja"
+
+msgid "Actions"
+msgstr "Akcje"
+
+msgid "Active"
+msgstr "Aktywny"
+
+msgid "Add"
+msgstr "Dodaj"
+
+msgid "Add block"
+msgstr "Dodaj blokadę"
+
+msgid "Add booking"
+msgstr "Dodaj rezerwację"
+
+msgid "Add resource"
+msgstr "Dodaj zasób"
+
+msgid "Add to Google Calendar"
+msgstr "Dodaj do Google Calendar"
+
+msgid "Admin panel"
+msgstr "Panel administracyjny"
+
+msgid "Administrator e-mail"
+msgstr "E-mail administratora"
+
+msgid "An error occurred while saving. Please try again."
+msgstr "Wystąpił błąd podczas zapisu. Spróbuj ponownie."
+
+msgid "An error occurred."
+msgstr "Wystąpił błąd."
+
+msgid "An error occurred. Please try again."
+msgstr "Wystąpił błąd. Spróbuj ponownie."
+
+msgid "Anti-spam verification connection error."
+msgstr "Błąd połączenia z weryfikacją antyspamową."
+
+msgid "Anti-spam verification failed."
+msgstr "Weryfikacja antyspamowa nie powiodła się."
+
+msgid "Anti-spam verification is required (check the box)."
+msgstr "Wymagana jest weryfikacja antyspamowa (zaznacz pole)."
+
+msgid "Approve"
+msgstr "Zatwierdź"
+
+msgid "Approved"
+msgstr "Zatwierdzona"
+
+msgid "Approved → Customer"
+msgstr "Zatwierdzono → Klient"
+
+msgid "Are you sure you want to approve this booking?"
+msgstr "Czy na pewno chcesz zatwierdzić tę rezerwację?"
+
+msgid "Are you sure you want to cancel the booking below?"
+msgstr "Czy na pewno chcesz anulować poniższą rezerwację?"
+
+msgid "Are you sure you want to delete this block?"
+msgstr "Czy na pewno chcesz usunąć tę blokadę?"
+
+msgid "Are you sure you want to delete this booking?"
+msgstr "Czy na pewno chcesz usunąć tę rezerwację?"
+
+msgid "Are you sure you want to reject this booking?"
+msgstr "Czy na pewno chcesz odrzucić tę rezerwację?"
+
+msgid "Are you sure you want to restore this booking?"
+msgstr "Czy na pewno chcesz przywrócić tę rezerwację?"
+
+msgid "Available"
+msgstr "Wolne"
+
+msgid "Available placeholders:"
+msgstr "Dostępne placeholdery:"
+
+msgid "Block deleted."
+msgstr "Blokada usunięta."
+
+msgid "Block has been added."
+msgstr "Blokada została dodana."
+
+msgid "Block not found."
+msgstr "Nie znaleziono blokady."
+
+msgid "Blocks"
+msgstr "Blokady"
+
+msgid "Body"
+msgstr "Treść"
+
+msgid "Booking"
+msgstr "Rezerwacja"
+
+msgid "Booking #%d"
+msgstr "Rezerwacja nr %d"
+
+msgid "Booking #{booking_id} approved - {site_name}"
+msgstr "Rezerwacja nr {booking_id} zatwierdzona - {site_name}"
+
+msgid "Booking #{booking_id} cancelled - {site_name}"
+msgstr "Rezerwacja nr {booking_id} anulowana - {site_name}"
+
+msgid "Booking #{booking_id} rejected - {site_name}"
+msgstr "Rezerwacja nr {booking_id} odrzucona - {site_name}"
+
+msgid "Booking #{booking_id} updated - {site_name}"
+msgstr "Zmiana rezerwacji nr {booking_id} - {site_name}"
+
+msgid "Booking approved"
+msgstr "Rezerwacja zatwierdzona"
+
+msgid "Booking calendar"
+msgstr "Kalendarz rezerwacji"
+
+msgid "Booking cancellation"
+msgstr "Anulowanie rezerwacji"
+
+msgid "Booking cancelled"
+msgstr "Rezerwacja anulowana"
+
+msgid "Booking cancelled by customer"
+msgstr "Rezerwacja anulowana przez klienta"
+
+msgid "Booking details"
+msgstr "Szczegóły rezerwacji"
+
+msgid "Booking does not exist or is not deleted."
+msgstr "Rezerwacja nie istnieje lub nie jest usunięta."
+
+msgid "Booking does not exist."
+msgstr "Rezerwacja nie istnieje."
+
+msgid "Booking edited → Customer"
+msgstr "Edycja rezerwacji → Klient"
+
+msgid "Booking for %s"
+msgstr "Rezerwacja na %s"
+
+msgid "Booking has been approved."
+msgstr "Rezerwacja została zatwierdzona."
+
+msgid "Booking has been deleted (can be restored)."
+msgstr "Rezerwacja została usunięta (można przywrócić)."
+
+msgid "Booking has been rejected."
+msgstr "Rezerwacja została odrzucona."
+
+msgid "Booking has been restored."
+msgstr "Rezerwacja została przywrócona."
+
+msgid "Booking has been updated."
+msgstr "Rezerwacja została zaktualizowana."
+
+msgid "Booking list"
+msgstr "Lista rezerwacji"
+
+msgid "Booking operator"
+msgstr "Operator rezerwacji"
+
+msgid "Booking rejected"
+msgstr "Rezerwacja odrzucona"
+
+msgid "Booking reminder"
+msgstr "Przypomnienie o rezerwacji"
+
+msgid "Booking request #{booking_id} received - {site_name}"
+msgstr "Potwierdzenie przyjęcia zgłoszenia nr {booking_id} - {site_name}"
+
+msgid "Booking request received"
+msgstr "Zgłoszenie przyjęte"
+
+msgid "Booking settings"
+msgstr "Ustawienia rezerwacji"
+
+msgid "Booking submitted"
+msgstr "Rezerwacja złożona"
+
+msgid "Booking updated"
+msgstr "Zmiana rezerwacji"
+
+msgid "Bookings"
+msgstr "Rezerwacje"
+
+msgid "Calendar"
+msgstr "Kalendarz"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "Cancel booking"
+msgstr "Anuluj rezerwację"
+
+msgid "Cancelled"
+msgstr "Anulowana"
+
+msgid "Cancelled by customer"
+msgstr "Anulowano przez klienta"
+
+msgid "Cancelled by customer → Admin"
+msgstr "Anulowano przez klienta → Admin"
+
+msgid "Cancelled by customer → Customer"
+msgstr "Anulowano przez klienta → Klient"
+
+msgid "Change history"
+msgstr "Historia zmian"
+
+msgid "Close"
+msgstr "Zamknij"
+
+msgid "Cloudflare Turnstile (reCAPTCHA)"
+msgstr "Cloudflare Turnstile (reCAPTCHA)"
+
+msgid "Company"
+msgstr "Firma"
+
+msgid "Contact details"
+msgstr "Dane kontaktowe"
+
+msgid "Created at"
+msgstr "Utworzono"
+
+msgid "Customer"
+msgstr "Klient"
+
+msgid "Customer cancelled booking #{booking_id}"
+msgstr "Klient anulował rezerwację nr {booking_id}"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Date from"
+msgstr "Data od"
+
+msgid "Date to"
+msgstr "Data do"
+
+msgid "Date too soon - advance notice required."
+msgstr "Termin zbyt wczesny - wymagane wyprzedzenie."
+
+msgid "Date:"
+msgstr "Data:"
+
+msgid "Day"
+msgstr "Dzień"
+
+msgid "Day unavailable."
+msgstr "Dzień niedostępny."
+
+msgid ""
+"Dear {customer_name},\n"
+"\n"
+"This is a reminder of your booking ({resource_name}, ID: {booking_id}) tomorrow, {date}.\n"
+"\n"
+"Time: {time_from} - {time_to}\n"
+"Location: {location}\n"
+"\n"
+"If you wish to cancel the booking, click the link below:\n"
+"{cancel_url}\n"
+"\n"
+"{site_name}"
+msgstr ""
+"Szanowny/a {customer_name},\n"
+"\n"
+"Przypominamy o Twojej rezerwacji ({resource_name}, ID: {booking_id}) jutro, {date}.\n"
+"\n"
+"Godzina: {time_from} - {time_to}\n"
+"Miejsce: {location}\n"
+"\n"
+"Jeśli chcesz anulować rezerwację, kliknij w poniższy link:\n"
+"{cancel_url}\n"
+"\n"
+"{site_name}"
+
+msgid ""
+"Dear {customer_name},\n"
+"\n"
+"Unfortunately your booking ({resource_name}, ID: {booking_id}) on {date} ({time_from} - {time_to}) cannot be fulfilled.\n"
+"\n"
+"If you have any questions, please contact us.\n"
+"\n"
+"{site_name}"
+msgstr ""
+"Szanowny/a {customer_name},\n"
+"\n"
+"Niestety Twoja rezerwacja ({resource_name}, ID: {booking_id}) na dzień {date} (godz. {time_from} - {time_to}) nie może być zrealizowana.\n"
+"\n"
+"W razie pytań prosimy o kontakt.\n"
+"\n"
+"{site_name}"
+
+msgid ""
+"Dear {customer_name},\n"
+"\n"
+"Your booking ({resource_name}, ID: {booking_id}) has been approved.\n"
+"\n"
+"Date: {date}\n"
+"Time: {time_from} - {time_to}\n"
+"Location: {location}\n"
+"\n"
+"See you soon!\n"
+"\n"
+"If you wish to cancel the booking, click the link below:\n"
+"{cancel_url}\n"
+"\n"
+"{site_name}"
+msgstr ""
+"Szanowny/a {customer_name},\n"
+"\n"
+"Twoja rezerwacja ({resource_name}, ID: {booking_id}) została zatwierdzona.\n"
+"\n"
+"Data: {date}\n"
+"Godzina: {time_from} - {time_to}\n"
+"Miejsce: {location}\n"
+"\n"
+"Do zobaczenia!\n"
+"\n"
+"Jeśli chcesz anulować rezerwację, kliknij w poniższy link:\n"
+"{cancel_url}\n"
+"\n"
+"{site_name}"
+
+msgid ""
+"Dear {customer_name},\n"
+"\n"
+"Your booking ({resource_name}, ID: {booking_id}) has been updated.\n"
+"\n"
+"Current booking details:\n"
+"Date: {date}\n"
+"Time: {time_from} - {time_to}\n"
+"Location: {location}\n"
+"Status: {status}\n"
+"\n"
+"If you wish to cancel the booking, click the link below:\n"
+"{cancel_url}\n"
+"\n"
+"Best regards,\n"
+"{site_name}"
+msgstr ""
+"Szanowny/a {customer_name},\n"
+"\n"
+"Twoja rezerwacja ({resource_name}, ID: {booking_id}) została zmieniona.\n"
+"\n"
+"Aktualne dane rezerwacji:\n"
+"Data: {date}\n"
+"Godzina: {time_from} - {time_to}\n"
+"Miejsce: {location}\n"
+"Status: {status}\n"
+"\n"
+"Jeśli chcesz anulować rezerwację, kliknij w poniższy link:\n"
+"{cancel_url}\n"
+"\n"
+"Pozdrawiamy,\n"
+"{site_name}"
+
+msgid ""
+"Dear {customer_name},\n"
+"\n"
+"Your booking ({resource_name}, ID: {booking_id}) on {date} ({time_from} - {time_to}) has been cancelled.\n"
+"\n"
+"Thank you for letting us know. Feel free to make a new booking anytime.\n"
+"\n"
+"{site_name}"
+msgstr ""
+"Szanowny/a {customer_name},\n"
+"\n"
+"Twoja rezerwacja ({resource_name}, ID: {booking_id}) na dzień {date} (godz. {time_from} - {time_to}) została anulowana.\n"
+"\n"
+"Dziękujemy za poinformowanie nas. W razie potrzeby zapraszamy do złożenia nowej rezerwacji.\n"
+"\n"
+"{site_name}"
+
+msgid "Delete"
+msgstr "Usuń"
+
+msgid "Delete (soft)"
+msgstr "Usuń (soft)"
+
+msgid "Description"
+msgstr "Opis"
+
+msgid "Dismiss"
+msgstr "Zamknij"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "E-mail address"
+msgstr "Adres e-mail"
+
+msgid "E-mail templates"
+msgstr "Szablony e-mail"
+
+msgid "Edit"
+msgstr "Edytuj"
+
+msgid "Edit booking #%d"
+msgstr "Edytuj rezerwację #%d"
+
+msgid "Edit resource"
+msgstr "Edytuj zasób"
+
+msgid "Edited by admin"
+msgstr "Edycja przez admina"
+
+msgid "Empty = whole day"
+msgstr "Puste = cały dzień"
+
+msgid "End date must be later than start date."
+msgstr "Data końcowa musi być późniejsza niż początkowa."
+
+msgid "End time must be later than start time."
+msgstr "Godzina zakończenia musi być późniejsza niż godzina rozpoczęcia."
+
+msgid "Existing blocks"
+msgstr "Istniejące blokady"
+
+msgid "Export to CSV"
+msgstr "Eksportuj do CSV"
+
+msgid "Failed to load time slots"
+msgstr "Błąd ładowania terminów"
+
+msgid "Filter"
+msgstr "Filtruj"
+
+msgid "From"
+msgstr "Od"
+
+msgid "Full name"
+msgstr "Imię i nazwisko"
+
+msgid "Full name / Company name"
+msgstr "Imię i nazwisko / Nazwa firmy"
+
+msgid "Full name is required."
+msgstr "Imię i nazwisko jest wymagane."
+
+msgid "Full name is too long."
+msgstr "Imię i nazwisko jest za długie."
+
+msgid "Full name:"
+msgstr "Imię i nazwisko:"
+
+msgid "General"
+msgstr "Ogólne"
+
+msgid "Go back"
+msgstr "Wróć"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "If checked, a pending booking temporarily blocks the time slot."
+msgstr "Jeśli zaznaczone, rezerwacja oczekująca tymczasowo blokuje termin."
+
+msgid "Insufficient permissions."
+msgstr "Brak uprawnień."
+
+msgid "Invalid date format."
+msgstr "Nieprawidłowy format daty."
+
+msgid "Invalid date."
+msgstr "Nieprawidłowa data."
+
+msgid "Invalid end time format."
+msgstr "Nieprawidłowy format godziny zakończenia."
+
+msgid "Invalid identifier."
+msgstr "Nieprawidłowy identyfikator."
+
+msgid "Invalid or expired cancellation link."
+msgstr "Nieprawidłowy lub nieaktualny link anulowania."
+
+msgid "Invalid security token."
+msgstr "Nieprawidłowy token bezpieczeństwa."
+
+msgid "Invalid start time format."
+msgstr "Nieprawidłowy format godziny rozpoczęcia."
+
+msgid "Invalid status."
+msgstr "Nieprawidłowy status."
+
+msgid "List"
+msgstr "Lista"
+
+msgid "Loading..."
+msgstr "Ładowanie..."
+
+msgid "Location"
+msgstr "Miejsce"
+
+msgid "Location is required."
+msgstr "Miejsce realizacji jest wymagane."
+
+msgid "Location:"
+msgstr "Miejsce:"
+
+msgid "Minimum advance notice (hours)"
+msgstr "Minimalne wyprzedzenie (godziny)"
+
+msgid "Minimum booking duration is 3 hours."
+msgstr "Minimalny czas rezerwacji to 3 godziny."
+
+msgid "Name"
+msgstr "Nazwa"
+
+msgid "Naming"
+msgstr "Nazewnictwo"
+
+msgid "New booking request"
+msgstr "Nowa rezerwacja"
+
+msgid "New booking request - {customer_name}"
+msgstr "Nowa rezerwacja - {customer_name}"
+
+msgid "New booking → Admin"
+msgstr "Nowa rezerwacja → Admin"
+
+msgid "New booking → Customer (confirmation with ID)"
+msgstr "Nowa rezerwacja → Klient (potwierdzenie przyjęcia z ID)"
+
+msgid "Next month"
+msgstr "Następny miesiąc"
+
+msgid "No"
+msgstr "Nie"
+
+msgid "No available end time (min. 3 h)"
+msgstr "Brak dostępnego zakończenia (min. 3 h)"
+
+msgid "No available time slots"
+msgstr "Brak dostępnych terminów"
+
+msgid "No blocks."
+msgstr "Brak blokad."
+
+msgid "Note"
+msgstr "Notatka"
+
+msgid "Notes"
+msgstr "Uwagi"
+
+msgid "Notes / additional information"
+msgstr "Uwagi / dodatkowe informacje"
+
+msgid "Number:"
+msgstr "Numer:"
+
+msgid "Partially booked"
+msgstr "Częściowo zajęte"
+
+msgid "Pending"
+msgstr "Oczekuje"
+
+msgid "Pending bookings block the slot"
+msgstr "Oczekujące blokują slot"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Phone number is required."
+msgstr "Telefon jest wymagany."
+
+msgid "Phone number is too long."
+msgstr "Numer telefonu jest za długi."
+
+msgid "Please provide a valid e-mail address."
+msgstr "Podaj prawidłowy adres e-mail."
+
+msgid "Previous month"
+msgstr "Poprzedni miesiąc"
+
+msgid "Protect the form against bots by providing Cloudflare Turnstile keys."
+msgstr "Zabezpiecz formularz przed botami, podając klucze Cloudflare Turnstile."
+
+msgid "Reason"
+msgstr "Powód"
+
+msgid "Reject"
+msgstr "Odrzuć"
+
+msgid "Reject booking"
+msgstr "Odrzuć rezerwację"
+
+msgid "Rejected"
+msgstr "Odrzucona"
+
+msgid "Rejected → Customer"
+msgstr "Odrzucono → Klient"
+
+msgid "Rejection reason (optional):"
+msgstr "Powód odrzucenia (opcjonalnie):"
+
+msgid "Reminder e-mail one day before"
+msgstr "Mail przypominający dzień przed"
+
+msgid "Reminder one day before → Customer"
+msgstr "Przypomnienie dzień przed → Klient"
+
+msgid "Reminder: booking #{booking_id} tomorrow - {site_name}"
+msgstr "Przypomnienie o rezerwacji nr {booking_id} - {site_name}"
+
+msgid "Resource"
+msgstr "Zasób"
+
+msgid "Resource #1"
+msgstr "Zasób #1"
+
+msgid "Resource added."
+msgstr "Zasób dodany."
+
+msgid "Resource list"
+msgstr "Lista zasobów"
+
+msgid "Resource name (plural)"
+msgstr "Nazwa zasobu (liczba mnoga)"
+
+msgid "Resource name (singular)"
+msgstr "Nazwa zasobu (liczba pojedyncza)"
+
+msgid "Resource updated."
+msgstr "Zasób zaktualizowany."
+
+msgid "Resources"
+msgstr "Zasoby"
+
+msgid "Restore"
+msgstr "Przywróć"
+
+msgid "Restored"
+msgstr "Przywrócono"
+
+msgid "Save changes"
+msgstr "Zapisz zmiany"
+
+msgid "Save error."
+msgstr "Błąd zapisu."
+
+msgid "Save settings"
+msgstr "Zapisz ustawienia"
+
+msgid "Saving..."
+msgstr "Zapisywanie..."
+
+msgid "Search customer..."
+msgstr "Szukaj klienta..."
+
+msgid "Secret Key"
+msgstr "Secret Key"
+
+msgid "Select a date."
+msgstr "Wybierz datę."
+
+msgid "Select a start time."
+msgstr "Wybierz godzinę rozpoczęcia."
+
+msgid "Select an end time."
+msgstr "Wybierz godzinę zakończenia."
+
+msgid "Send request"
+msgstr "Wyślij zgłoszenie"
+
+msgid "Sending..."
+msgstr "Wysyłanie..."
+
+msgid "Sends a reminder to the customer one day before an approved booking."
+msgstr "Wysyła klientowi przypomnienie dzień przed zatwierdzoną rezerwacją."
+
+msgid "Server connection error."
+msgstr "Błąd połączenia z serwerem."
+
+msgid "Server error. Please try again."
+msgstr "Błąd serwera. Spróbuj ponownie."
+
+msgid "Session expired. Refresh the page and try again."
+msgstr "Sesja wygasła. Odśwież stronę i spróbuj ponownie."
+
+msgid "Settings"
+msgstr "Ustawienia"
+
+msgid "Show deleted"
+msgstr "Pokaż usunięte"
+
+msgid "Site Key"
+msgstr "Site Key"
+
+msgid "Slot duration (minutes)"
+msgstr "Długość slotu (minuty)"
+
+msgid "Source"
+msgstr "Źródło"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Status change"
+msgstr "Zmiana statusu"
+
+msgid "Subject"
+msgstr "Temat"
+
+msgid "Tax ID"
+msgstr "NIP"
+
+msgid ""
+"Thank you, {customer_name}!\n"
+"\n"
+"Your booking request ({resource_name}, ID: {booking_id}) has been received and is awaiting confirmation.\n"
+"\n"
+"Date: {date}\n"
+"Time: {time_from} - {time_to}\n"
+"Location: {location}\n"
+"\n"
+"We will notify you about the decision by e-mail.\n"
+"\n"
+"If you wish to cancel the booking, click the link below:\n"
+"{cancel_url}\n"
+"\n"
+"{site_name}"
+msgstr ""
+"Dziękujemy, {customer_name}!\n"
+"\n"
+"Twoje zgłoszenie rezerwacji ({resource_name}, ID: {booking_id}) zostało przyjęte i oczekuje na potwierdzenie.\n"
+"\n"
+"Data: {date}\n"
+"Godzina: {time_from} - {time_to}\n"
+"Miejsce: {location}\n"
+"\n"
+"Poinformujemy Cię o decyzji e-mailem.\n"
+"\n"
+"Jeśli chcesz anulować rezerwację, kliknij w poniższy link:\n"
+"{cancel_url}\n"
+"\n"
+"{site_name}"
+
+msgid ""
+"The customer has cancelled a booking.\n"
+"\n"
+"ID: {booking_id}\n"
+"Customer: {customer_name}\n"
+"Phone: {customer_phone}\n"
+"E-mail: {customer_email}\n"
+"Date: {date}\n"
+"Time: {time_from} - {time_to}\n"
+"Location: {location}\n"
+"\n"
+"The slot is available again."
+msgstr ""
+"Klient anulował rezerwację.\n"
+"\n"
+"ID: {booking_id}\n"
+"Klient: {customer_name}\n"
+"Telefon: {customer_phone}\n"
+"E-mail: {customer_email}\n"
+"Data: {date}\n"
+"Godzina: {time_from} - {time_to}\n"
+"Miejsce: {location}\n"
+"\n"
+"Termin wrócił do puli dostępnych."
+
+msgid "The form has already been submitted."
+msgstr "Formularz został już wysłany."
+
+msgid "The selected time slot conflicts with another booking."
+msgstr "Wybrany termin koliduje z inną rezerwacją."
+
+msgid "The selected time slot is no longer available. Please choose another one."
+msgstr "Wybrany termin jest już niedostępny. Proszę wybrać inny."
+
+msgid "The time slot conflicts with another approved booking."
+msgstr "Termin koliduje z inną zatwierdzoną rezerwacją."
+
+msgid "This booking can no longer be cancelled."
+msgstr "Ta rezerwacja nie może już zostać anulowana."
+
+msgid "This booking is no longer active and cannot be cancelled."
+msgstr "Ta rezerwacja nie jest już aktywna i nie można jej anulować."
+
+msgid "Time"
+msgstr "Godzina"
+
+msgid "Time from"
+msgstr "Godzina od"
+
+msgid "Time to"
+msgstr "Godzina do"
+
+msgid "Time:"
+msgstr "Godzina:"
+
+msgid "To"
+msgstr "Do"
+
+msgid "Too many requests. Please try again in a few minutes."
+msgstr "Zbyt wiele żądań. Spróbuj za kilka minut."
+
+msgid "Unavailability blocks"
+msgstr "Blokady niedostępności"
+
+msgid "Unavailable"
+msgstr "Niedostępne"
+
+msgid "User"
+msgstr "Użytkownik"
+
+msgid "Website form"
+msgstr "Formularz strony"
+
+msgid "What is being booked? These labels are used across the admin panel (e.g. \"Crane\" / \"Cranes\", \"Room\" / \"Rooms\")."
+msgstr "Co jest rezerwowane? Te etykiety są używane w panelu administracyjnym (np. \"Żuraw\" / \"Żurawie\", \"Sala\" / \"Sale\")."
+
+msgid "Whole day"
+msgstr "Cały dzień"
+
+msgid "Working hours"
+msgstr "Godziny pracy"
+
+msgid "Yes"
+msgstr "Tak"
+
+msgid "Your booking has been cancelled. Thank you for letting us know."
+msgstr "Twoja rezerwacja została anulowana. Dziękujemy za informację."
+
+msgid "Your request has been received. We will contact you by e-mail or phone after confirmation. The e-mail may end up in your SPAM folder."
+msgstr "Zgłoszenie zostało przyjęte. Skontaktujemy się z Tobą mailowo lub telefonicznie po potwierdzeniu. Możliwe, że mail wyląduje w SPAMie."
+
+msgid "e.g. Maintenance, Holiday"
+msgstr "np. Serwis, Urlop"
+
+msgid "%d bkg."
+msgid_plural "%d bkgs."
+msgstr[0] "%d rez."
+msgstr[1] "%d rez."
+msgstr[2] "%d rez."
+

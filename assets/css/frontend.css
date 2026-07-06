@@ -1,0 +1,359 @@
+.cbm-booking-wrapper {
+	max-width: 680px;
+	margin: 0 auto;
+	font-family: inherit;
+}
+
+.cbm-form__section {
+	margin-bottom: 2rem;
+}
+
+.cbm-form__section-title {
+	font-size: 1.1rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+	padding-bottom: .4rem;
+	border-bottom: 2px solid #e5e7eb;
+}
+
+.cbm-field {
+	margin-bottom: 1.25rem;
+}
+
+.cbm-field label {
+	display: block;
+	font-weight: 500;
+	margin-bottom: .4rem;
+	font-size: .95rem;
+}
+
+.cbm-field input[type="text"],
+.cbm-field input[type="email"],
+.cbm-field input[type="tel"],
+.cbm-field textarea,
+.cbm-field select {
+	width: 100%;
+	padding: .6rem .85rem;
+	border: 1px solid #d1d5db;
+	border-radius: 6px;
+	font-size: 1rem;
+	font-family: inherit;
+	background: #fff;
+	color: #111;
+	box-sizing: border-box;
+	transition: border-color .15s;
+}
+
+.cbm-field input:focus,
+.cbm-field textarea:focus,
+.cbm-field select:focus {
+	outline: none;
+	border-color: #ee7e05;
+	box-shadow: 0 0 0 3px rgba(37, 99, 235, .15);
+}
+
+.cbm-field__error {
+	display: block;
+	color: #dc2626;
+	font-size: .85rem;
+	margin-top: .3rem;
+	min-height: 1.2em;
+}
+
+.cbm-btn {
+	display: inline-block;
+	padding: .7rem 2rem;
+	border: none;
+	border-radius: 6px;
+	font-size: 1rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background .15s, opacity .15s;
+}
+
+.cbm-btn--primary {
+	background: #ee7e05;
+	color: #fff;
+}
+
+.cbm-btn--primary:hover {
+	background: #7e4100;
+}
+
+.cbm-btn:disabled {
+	opacity: .6;
+	cursor: not-allowed;
+}
+
+.cbm-message {
+	padding: .85rem 1.1rem;
+	border-radius: 6px;
+	margin-bottom: 1.25rem;
+	font-size: .95rem;
+}
+
+.cbm-message--error {
+	background: #fef2f2;
+	color: #991b1b;
+	border: 1px solid #fecaca;
+}
+
+.cbm-message--success {
+	background: #f0fdf4;
+	color: #166534;
+	border: 1px solid #bbf7d0;
+}
+
+.cbm-success {
+	padding: 1.5rem;
+	background: #f0fdf4;
+	border: 1px solid #bbf7d0;
+	border-radius: 8px;
+	color: #166534;
+	font-size: 1rem;
+	text-align: center;
+}
+
+
+.flatpickr-calendar {
+	border-radius: 8px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, .12);
+}
+
+
+.flatpickr-day.cbm-day--available,
+.flatpickr-day.cbm-day--partial,
+.flatpickr-day.cbm-day--fully_booked {
+	position: relative;
+}
+
+.flatpickr-day.cbm-day--available::after,
+.flatpickr-day.cbm-day--partial::after,
+.flatpickr-day.cbm-day--fully_booked::after {
+	content: '';
+	position: absolute;
+	bottom: 3px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+}
+
+
+.flatpickr-day.cbm-day--available::after {
+	background: #16a34a;
+}
+
+
+.flatpickr-day.cbm-day--partial::after {
+	background: #ea580c;
+}
+
+
+.flatpickr-day.cbm-day--fully_booked.disabled,
+.flatpickr-day.cbm-day--fully_booked.disabled:hover {
+	background: #fee2e2 !important;
+	color: #991b1b !important;
+	text-decoration: none;
+	opacity: 1;
+}
+
+.flatpickr-day.cbm-day--fully_booked::after {
+	background: #dc2626;
+}
+
+
+.flatpickr-day.cbm-day--past.disabled,
+.flatpickr-day.cbm-day--disabled.disabled,
+.flatpickr-day.disabled:not([class*="cbm-day--"]),
+.flatpickr-day.disabled:not([class*="cbm-day--"]):hover {
+	background: #f3f4f6;
+	color: #9ca3af;
+	text-decoration: line-through;
+}
+
+
+.cbm-calendar-legend {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .75rem 1.25rem;
+	margin-top: .75rem;
+	font-size: .82rem;
+	color: #6b7280;
+}
+
+.cbm-calendar-legend__item {
+	display: flex;
+	align-items: center;
+	gap: .35rem;
+}
+
+.cbm-calendar-legend__dot {
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	flex-shrink: 0;
+}
+
+.cbm-calendar-legend__dot--available {
+	background: #16a34a;
+}
+
+.cbm-calendar-legend__dot--partial {
+	background: #ea580c;
+}
+
+.cbm-calendar-legend__dot--booked {
+	background: #dc2626;
+}
+
+.cbm-additional-info {
+	text-align: center;
+	font-size: 14px;
+	color: #3A3C3F;
+	margin-top: 30px;
+	padding-top: 20px;
+	border-top: 1px solid #e6e6e6;
+}
+
+.a-cbm {
+	color: #EE7D00;
+}
+
+.a-cbm:hover {
+	color: #7e4100;
+}
+
+.cbm-calendar-block {
+	max-width: 560px;
+	margin: 0 auto 1.5rem;
+}
+
+.cbm-calendar-inline {
+	display: flex;
+	justify-content: center;
+}
+
+.cbm-calendar-block .flatpickr-calendar.inline {
+	width: 100%;
+	max-width: 560px;
+}
+
+.cbm-calendar-block .flatpickr-rContainer,
+.cbm-calendar-block .flatpickr-days,
+.cbm-calendar-block .dayContainer {
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.cbm-calendar-block .flatpickr-day {
+	max-width: none;
+	height: 46px;
+	line-height: 46px;
+	font-size: 1rem;
+}
+
+.cbm-calendar-block .flatpickr-current-month,
+.cbm-calendar-block .flatpickr-weekday {
+	font-size: 1rem;
+}
+
+.cbm-calendar-block .flatpickr-day:not(.disabled):not(.flatpickr-disabled) {
+	cursor: pointer;
+}
+
+.cbm-calendar-block .flatpickr-day.disabled,
+.cbm-calendar-block .flatpickr-day.flatpickr-disabled {
+	cursor: not-allowed;
+}
+
+.cbm-modal-overlay {
+	position: fixed;
+	inset: 0;
+	background: rgba(0, 0, 0, .55);
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 2rem 1rem;
+	overflow-y: auto;
+	z-index: 100000;
+	animation: cbm-fade .15s ease;
+}
+
+.cbm-modal-box {
+	position: relative;
+	background: #fff;
+	border-radius: 10px;
+	max-width: 680px;
+	width: 100%;
+	margin: auto;
+	padding: 2rem 1.75rem 1.5rem;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, .25);
+	animation: cbm-pop .18s ease;
+}
+
+.cbm-modal-box__close {
+	position: absolute;
+	top: .5rem;
+	right: .85rem;
+	border: none;
+	background: transparent;
+	font-size: 1.9rem;
+	line-height: 1;
+	cursor: pointer;
+	color: #6b7280;
+	padding: .2rem .4rem;
+}
+
+.cbm-modal-box__close:hover {
+	color: #111827;
+}
+
+.cbm-modal-box__title {
+	font-size: 1.25rem;
+	font-weight: 600;
+	margin: 0 0 1.25rem;
+	padding-right: 2rem;
+}
+
+@keyframes cbm-fade {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes cbm-pop {
+	from {
+		opacity: 0;
+		transform: translateY(12px);
+	}
+
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+@media (max-width: 600px) {
+	.cbm-calendar-block .flatpickr-day {
+		height: 40px;
+		line-height: 40px;
+	}
+
+	.cbm-modal-overlay {
+		padding: 0;
+	}
+
+	.cbm-modal-box {
+		border-radius: 0;
+		min-height: 100%;
+		padding: 1.5rem 1.1rem 1.25rem;
+	}
+}
